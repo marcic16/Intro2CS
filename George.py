@@ -20,3 +20,5 @@ total_slices_needed = slices_per_student * present_students
 cost_per_student = 500 / present_students
 boxes_to_order = (total_slices_needed // 8) + 1  
 leftover_slices = (boxes_to_order * 8) % present_students
+print("Total boxes to order", boxes_to_order)
+print("Leftover slices", leftover_slices) 
